@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Perrucci Pizza</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/ancora.js"></script>
+        <script src="js/menuReserva.js"></script>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header id="header">
+            <div class="conteudo">
+                <div id="logo">
+                    <div class="txtLogo">PIZZARIA PERRUCCI</div>
+                </div>
+                <nav id="menu">
+                    <ul id="listMenu">
+                        <li class="itemHome"><a href="index.html#banner">Home</a></li>
+                        <li class="itemHome"><a href="index.html#sobre">Sobre</a></li>
+                        <li class="itemContato"><a href="index.html#reserva">Reservas</a></li>
+                         <li class="itemContato"><a href="index.html#cardapio">Cardapio</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Banner -->
+        <div id="bannerReserva">
+            <div class="conteudo">
+                <div id="containerReserva">
+                    <form id="formReserva" action="" method="get">
+                        <div class="itensForm">
+                            <label class="tituloReserva">Reserva</label>
+                            <div class="hrGradient"></div>
+                        </div>
+                        <div class="itensForm">
+                            <input class="input" type="text" name="txtNome" placeholder="Nome" maxlength="50">
+                        </div>
+                        <div class="itensForm">
+                            <input class="input" type="email" name="txtEmail" placeholder="Email" maxlength="50">
+                        </div>
+                        <div class="itensForm">
+                            <input class="input" type="text" name="txtCelular" placeholder="Celular" maxlength="11">
+                        </div>
+                        <div class="itensForm">
+                            <input class="input" type="text" name="txtCPF" placeholder="CPF">
+                        </div>
+                        <div class="itensForm">
+                            <input class="btnReserva" type="submit" name="btnReserva" value="Finalizar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+         <footer id="rodape">
+            <div class="conteudo">
+                <div id="redesSociais">
+                    <p class="txtTituloRodape">
+                    Pizzaria Perrucci
+                    </p>
+                    <p class="txtRodape">
+                    Lorem ipsum dolor sit amet, consectetur adipis <br>elit.
+                    </p>
+                    <div class="iconsRedesSociais">
+                        <img src="img/whats.png">
+                        <img src="img/face.png">
+                        <img src="img/insta.png">
+                    </div>
+                </div>
+                <div id="cardapioRodape">
+                    <p class="txtTituloRodape">
+                        Cardapio
+                    </p>
+                    <p class="txtRodape">
+                        <a href="index.html#cardapio"> Pizzas</a>
+                    </p>
+                    <p class="txtRodape">
+                        <a href="index.html#cardapio">Sobremesas</a>
+                    </p>
+                    <p class="txtRodape">
+                        <a href="index.html#cardapio">Bebidas</a>
+                    </p>
+                </div>
+                <div id="servicos">
+                    <p class="txtTituloRodape">
+                    Serviços
+                    </p>
+                    <p class="txtRodape">
+                        <a href="index.html#reserva">Reserva</a>
+                    </p>
+                </div>
+                <div id="recebaPromo">
+                    <p class="txtTituloRodape">
+                    Receba promoções imperdiveis
+                    </p>
+                    <p class="txtRodape">
+                    Lorem ipsum dolor sit amet, consectetur adipis <br>elit.
+                    </p>
+                    <input class="emailPromocao"type="text" placeholder="Digite seu email">
+                    <img class="icons" src="img/enviar.jpg">
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

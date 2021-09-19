@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#header{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+   transition:  .7s;
+/*    background-color: aqua;*/
+    
+}
+.headerGradientt{
+    transition:  .7s;
+   background-color: #1C1C1C;
+}
+
+.conteudo{
+    width: 1340px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+/*    background-color: darkgoldenrod;*/
+   
+}
+#logo{
+    width: 300px;
+    height: inherit;
+    float: left;
+}
+.txtLogo {
+    width: inherit;
+    height: inherit;
+    font-family: tahoma;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 25px;
+    color: white;
+}
+
+#menu{
+    width: 580px;
+    height: inherit;
+    float: left;
+    margin-left: 290px;
+   
+    
+}
+#listMenu{
+    width: inherit;
+    height: inherit;
+    float: left;
+    margin-left: 180px;
+/*    background-color: aqua;*/
+    
+    
+}
+.itemHome,.itemProdutos,.itemContato{
+    text-decoration: none;
+    width: 100px;
+    height: 35px;
+    float: left;
+    list-style: none;
+    color: white;
+    font-family: tahoma;
+    font-size: 1.2em;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 27px;
+    margin-right: 35px;
+    border-bottom: solid 2px #6E6E6E;
+    cursor: pointer;
+    text-transform: capitalize;  
+    
+   
+}
+.itemProdutos{
+    width: 150px;
+}
+.itemContato{
+    width:120px;
+}
+#listMenu li:hover{
+    border-bottom: solid 3px brown;
+    transition: .1s; 
+}
+/*
+.itensAoRolar{
+     border-bottom: solid 0px #6E6E6E;
+   
+}
+.itensAoRolar:hover{
+     border-bottom: solid 2px brown;
+   
+}
+*/
+#banner,#bannerReserva{
+    width: 100%;
+    height: 700px;
+    background-color: #151515;
+    background-image: url(../img/banner7.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+    padding-top: 200px;
+}
+#bannerReserva{
+    padding-top: 150px;
+}
+.tituloBanner,.tituloBannerSobre{
+    width: 700px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/sombra.png);
+    background-size: cover;
+    background-position: bottom;
+   
+   
+}
+.tituloBannerSobre{
+    width:750px ;
+    height: 500px;
+    margin-left: 580px;
+    box-sizing: border-box;
+    padding-top: 100px;
+ 
+}
+.hrBanner,.hrCategoria{
+    width: 430px;
+    height: 3px;
+    background-color: white;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hrCategoria{
+    width: 260px;
+    height: 1px;
+    background-color: #151515;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1,h2,h3{
+    width: inherit;
+    height: auto;
+    margin-top: 20px;
+    font-family: calibri;
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 4px #000;
+    letter-spacing: 3px;
+    
+}
+h2{
+    margin-top: 10px;
+    font-size: 3em;
+    color: black;
+    text-shadow: 0px 0px 0px ;
+    font-family: arial;
+    letter-spacing: 10px;
+   
+}
+h3{
+    margin-top: 100px;
+    font-size: 5em;
+    color: brown;
+    text-shadow: 0px 0px 0px ;
+    font-family: fantasy;
+    font-style: italic;
+}
+h4{
+    font-family: fantasy;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 130px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: brown;
+/*    background-color: aquamarine;*/
+   
+}
+.tituloBannerSobre h3{
+    margin-top: 20px;
+     text-shadow: 0px 0px 5px black ;
+   
+}
+.botaoReserva{
+    font-size: 2em;
+    width: 400px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: tahoma;
+    border: 3px solid white;
+    margin-top: 30px;
+    color: #F2F2F2;
+    text-align: center;
+}
+.botaoReserva:hover{
+    background-color: white;
+    color: black;
+    border: 0px solid black;
+    cursor: pointer;
+}
+.txtBoasVindas{
+    width: inherit;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 6em;
+    color: brown;
+    text-shadow: 0px 0px 5px #000;
+    text-align: center;
+  
+}
+.txtTitulo{
+    margin-top: 10px;
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 2.8em;
+    color: #F2F2F2;
+    text-shadow: 0px 0px 5px black;
+  
+}
+
+#sobre{
+    width: 100%;
+    height: 700px;
+    background-color: #FAFAFA;
+}
+.sobrePizzaria{
+    width: 670px;
+    height: inherit;
+    float: left;
+}
+
+.imgPadrao{
+    width: 630px;
+    margin-top: 110px;
+    border-radius: 2px;
+}
+.separador{
+    width: inherit;
+    height: 30px;
+    font-size: 3.2em;
+    color: brown;
+    text-align: center;
+    font-family:calibri;
+  
+}
+.textPadrao{
+    width: inherit;
+    min-height: 15px;
+    height: auto;
+    font-size: 1.6em;
+    font-family: calibri;
+    color: #6E6E6E;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#reserva{
+    width: 100%;
+    height: 600px;
+    background-image:url(../img/bannerPizza.jpg) ;
+/*    background-attachment:fixed;*/
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: #151515;
+    padding-top:0px;
+}
+#cardapio{
+    width: 100%;
+    height: 750px;
+    background-color: #FAFAFA;
+    float: left;
+}
+#opcoesMenu{
+    width: 300px;
+    height: 570px;
+    float: left;
+/*    background-color: coral;*/
+}
+#categorias{
+    width: inherit;
+    height: 280px;
+/*    background-color: blueviolet;*/
+}
+.tituloCategoria{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: Arial;
+    letter-spacing: 2px;
+    color: #6E6E6E;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+#listCategorias,#listSabores{
+    width: inherit;
+    height: 160px;
+/*    background-color: aqua;*/
+    margin-top: 20px;
+}
+.itensCategoria,.txtMaior,.itensSabores{
+    width:260px;
+    height:40px;
+/*    background-color: aquamarine;*/
+    font-family:calibri;
+    font-size: 1.2em;
+    font-weight:bold;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 5px;
+    float: left;
+    list-style: none;
+}
+.txtMaior{
+    width: 40px;
+    height: 40px;
+    padding-left: 1px;
+   
+}
+#filtrosSabores{
+    width: inherit;
+    height: 250px;
+/*    background-color: brown;*/
+}
+.itensSabores{
+    float: right;
+    padding-left: 0px;
+}
+#produtos{
+    width: 1040px;
+    height: 620px;
+    float: left;
+/*    background-color: aqua;*/
+}
+.seletor{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    float:left;
+    margin-top: 6px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.cardProduto{
+    width: 310px;
+    height: 280px;
+/*    background-color: brown;*/
+    float:left;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.imagemProduto{
+    width: inherit;
+    height: 200px;
+/*    background-color: cadetblue;*/
+    padding-left: 15px;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+}
+.descProduto{
+    width: inherit;
+    height: 80px;
+/*    background-color: blueviolet;*/
+    float: left;
+}
+
+.nomeProduto, .tipoProduto{
+    width: inherit;
+    height: auto;
+    font-family: calibri;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+/*    background-color: aqua;*/
+}
+.tipoProduto{
+    width: inherit;
+    height: auto;
+    font-family: arial;
+    font-size: 1em;
+    text-transform:capitalize;
+    height: 20px;
+    color: #6E6E6E;
+    
+}
+.imgProduto,.imgProdutoBaiana,.imgProdutoBeacon{
+    width: 280px;
+    height: auto;
+    
+}
+.imgProdutoBeacon,.imgProdutoToscana,.imgProdutoBrigadeiro{
+     width: 285px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.imgProdutoBaiana{
+    width: 240px;
+    box-sizing: border-box;
+    padding-top:30px;
+    padding-left: 20px;
+}
+.imgProdutoVegetariana{
+    width: 260px;
+    box-sizing: border-box;
+    padding-top:20px;
+    padding-left: 20px;
+}
+.imgProdutoToscana{
+    width: 270px;
+}
+.imgProdutoBrigadeiro{
+    width: 280px;
+    padding-top: 30px;  
+}
+#rodape{
+    width: 100%;
+    height: 300px;
+    background-color: #151515;
+    float: left;
+}
+#redesSociais,#recebaPromo{
+    width: 460px;
+    height: inherit;
+    float:left;
+    box-sizing: border-box;
+/*    background-color: brown;*/
+    
+}
+#cardapioRodape,#servicos{
+    width: 210px;
+    height: inherit;
+    float: left;
+/*    background-color: aquamarine;*/
+    box-sizing: border-box;
+}
+.txtTituloRodape,.txtRodape{
+    width: auto;
+    height: 40px;
+    font-family: Calibri;
+    font-size: 1.5em;
+    margin-top: 80px;
+    text-align: left;
+    color: #848484;
+    margin-left: 30px;
+/*    background-color: aqua;*/
+    
+}
+.txtRodape{
+    height: auto;
+    margin-top: 5px;
+    font-size: 1.2em;
+    
+}
+#cardapioRodape a,#servicos a{
+    text-decoration: underline;
+    color: #848484;
+}
+
+.iconsRedesSociais{
+    width: 90px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 30px;
+/*    background-color: aqua;*/
+}
+.iconsRedesSociais img,.icons{
+    width: 20px;
+    margin-left: 3px;
+    filter: brightness(50%);
+}
+.icons{
+    filter: brightness(100%);
+}
+.emailPromocao{
+    width: 250px;
+    height: 25px;
+    margin-left: 30px;
+    background-color: #151515;
+    border: 1px solid #848484;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+/*Background escuro da modal*/
+
+.imgReserva{
+    width: inherit;
+    height: inherit;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+/*    margin-top: 18px;*/
+/*    margin-left: 18px;*/
+
+}
+.tituloForm{
+    width: inherit;
+    height: auto;
+    background-color: aqua;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 2em;
+}
+#containerReserva{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 35px;
+    box-sizing: border-box;
+    
+}
+.itensForm{
+    width: 380px;
+    height:70px;
+/*    background-color: aqua;*/
+/*    text-align: center;*/
+    
+    
+}
+.input{
+    width: 370px;
+    height: 50px;
+    font-size: 1.5em;
+    font-family: calibri;
+    border: none;
+    border-bottom: solid 2px #6E6E6E;
+    outline: none;
+    color: #2E2E2E;
+    
+}
+.input:focus{
+    background-color: #E0F8F1;
+    border-bottom: solid 2px brown;
+}
+.tituloReserva{
+    font-size: 2.5em;
+    font-family: calibri;
+    color: #2E2E2E;
+    font-weight: bold;
+    
+}
+.btnReserva{
+    width: 370px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+/*    background-image: linear-gradient(to right, #FA5858,#FF2E2E);*/
+    background-color: #FE2E2E;
+    color: white;
+    font-size: 1.5em;
+    font-family: calibri;
+    margin-top: 20px;
+    
+}
+.btnReserva:hover{
+    cursor: pointer;
+    width: 375px;
+    height: 55px;
+    transition: all .3s;
+}
+.hrGradient{
+    width: 50px;
+    height: 7px;
+    background-image: linear-gradient(to right, #FF2E2E, #FA5858);
+    border-radius: 5px;
+}
